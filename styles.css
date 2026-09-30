@@ -473,3 +473,4 @@ h1, h2, h3 { letter-spacing: 0.005em; }
 .cases__note { text-align: center; margin-top: 28px; font-size: 13.5px; color: var(--ink-soft); }
 @media (max-width: 1100px) { .cases__grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .cases__grid { grid-template-columns: 1fr; } }
+h1, h2, h3, .stat__num, .service__price, .hero__card-price, .offer__price, .price__row span:last-child, .step__num, .pitch__meta b, .calc td { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
